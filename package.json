@@ -1,0 +1,26 @@
+{
+  "name": "apollo-investigator",
+  "version": "1.0.0",
+  "description": "Website for Private Investigator ",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raiadi/apollo-investigator.git"
+  },
+  "author": "Adarsh Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raiadi/apollo-investigator/issues"
+  },
+  "homepage": "https://github.com/raiadi/apollo-investigator#readme"
+}
