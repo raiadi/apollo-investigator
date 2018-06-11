@@ -120,7 +120,7 @@ body{
     position: relative;
     width: 100%;
     max-width: 1024px;
-    min-height: 100%;
+    min-height: 550px;
     padding: 20px;
     margin: 0 auto;
     background-color: $white;
@@ -391,6 +391,7 @@ body{
       }
     }
     main{
+      min-height: 300px;
       .jumbotron{
         .jumbotron-info{
           width:100%;
@@ -551,6 +552,7 @@ body{
 
     }
     main{
+      min-height: 250px;
       padding: 2px;
       .services-container{
 
