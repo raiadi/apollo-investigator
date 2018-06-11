@@ -14,6 +14,10 @@ a {
 .grey-bckgr {
   background-color: rgba(183, 179, 177, 0.2); }
 
+.center {
+  display: block;
+  margin: 0 auto; }
+
 .contain {
   position: absolute;
   top: 0;
@@ -483,4 +487,4 @@ body {
           font-weight: 600;
           text-decoration: underline; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
