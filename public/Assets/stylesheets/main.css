@@ -15,8 +15,9 @@ a {
   background-color: rgba(183, 179, 177, 0.2); }
 
 .center {
-  display: block;
-  margin: 0 auto; }
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center; }
 
 .contain {
   position: absolute;
