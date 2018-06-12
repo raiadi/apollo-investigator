@@ -15,7 +15,7 @@ a {
   background-color: rgba(183, 179, 177, 0.2); }
 
 .center {
-  display: inline-block;
+  display: block;
   margin: 0 auto;
   text-align: center; }
 
