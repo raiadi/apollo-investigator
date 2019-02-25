@@ -4,6 +4,7 @@ var bodyParser = require("body-parser"),
   app = express();
 
 app.use(express.static(__dirname + "/public"));
+app.set('views', __dirname + '/views');
 
 app.get("/", function(req, res) {
   res.render("./views/index.ejs");
