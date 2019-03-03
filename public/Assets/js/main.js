@@ -11,8 +11,8 @@ burgerMenuDropdown();
 
 for (var i = 0; i < inform.length; i++) {
   if ((i % 2) !== 0) {
-    console.log(i / 2);
-    console.log(i);
+    //console.log(i / 2);
+    //console.log(i);
     inform[i].classList.add("grey-bckgr");
   }
 }
@@ -20,9 +20,9 @@ for (var i = 0; i < inform.length; i++) {
 function servMenuAdjuster() {
   window.addEventListener("scroll", function(evt) {
     var scrolDist = window.pageYOffset;
-    console.log(scrolDist);
+    //console.log(scrolDist);
     if (scrolDist > headerHeight) {
-      console.log("hi");
+      //console.log("hi");
       contain.style.position = "fixed";
     } else {
       contain.style.position = "absolute";
